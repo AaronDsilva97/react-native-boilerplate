@@ -1,10 +1,12 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-const Detail = () => {
+const Detail = ({ route }) => {
+  const { count } = route.params;
   return (
     <View style={styles.container}>
       <Text>Detail Screen</Text>
+      <Text>{count}</Text>
     </View>
   );
 };
