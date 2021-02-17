@@ -1,11 +1,11 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import Main from "./Main";
+import Drawer from "./Drawer";
 
 const Root = () => {
   return (
     <NavigationContainer>
-      <Main />
+      <Drawer />
     </NavigationContainer>
   );
 };
